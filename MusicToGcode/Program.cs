@@ -34,7 +34,7 @@ namespace MusicToGcode
 
         public void AddLineToGcodeFile(string gcodeCommand)
         {
-            outputgcode += "\n" + gcodeCommand;
+            outputgcode += $"\n{gcodeCommand}";
         }
     }
 }
