@@ -8,7 +8,7 @@ namespace MusicToGcode
         public string outputgcode;
         int desiredtimeframe;
         int MaximumX;
-        List<double> Frequencies;
+        FrequencySpeedList _frequencySpeedList = new FrequencySpeedList();
 
 
         public double frequencyToDistance(double durationOfFrequencyinSeconds, double SpeedAtFrequencyinMillimetresPerSecond)
