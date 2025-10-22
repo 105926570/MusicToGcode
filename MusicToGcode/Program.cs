@@ -4,10 +4,8 @@ namespace MusicToGcode
 { 
     internal class Program
     {
-        public string SoundFile;
-        public string outputgcode;
-        int desiredtimeframe;
-        int MaximumX;
+        public string SoundFile, outputgcode;
+        int desiredtimeframe, MaximumX;
         FrequencySpeedList _frequencySpeedList = new FrequencySpeedList();
 
 
