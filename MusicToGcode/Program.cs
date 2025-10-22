@@ -36,5 +36,11 @@ namespace MusicToGcode
         {
             outputgcode += $"\n{gcodeCommand}";
         }
+
+        //Properties:
+        public string FinalGcode
+        {
+            get { return outputgcode; }
+        }
     }
 }
